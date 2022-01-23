@@ -1,10 +1,21 @@
-@media(max-width:614px){/*colocar o tamanho de 635px de volta*/
+@media(max-width:635px){
 
 
 .barra-topo {
+    justify-content: space-between;
+    align-items: center;
+    display: column
+    
     
 }
 .out-mobile{
+    display:none;
+}
+.out-mobile2{
+    display:none;
+
+}
+.out-mobile3{
     display:none;
 }
 .mid-topo{
@@ -14,4 +25,19 @@
 .line{
     display:none
 }
+.storys{
+    width:100vw;
+    background-color: #E5E5E5;
+}
+.conteudo{
+    width:100vw;;
+
+}
+.side-todo-conteudo{
+    position:
+}
+
+
+
+
 }

@@ -8,6 +8,10 @@
     .storys{
        width:610px;
        margin-bottom: 25px;
+     overflow:hidden;
+    }
+    .ft-story{
+        margin:0 15px;
     }
     .conteudo{
         margin:auto 0;
@@ -16,12 +20,12 @@
         margin:0 auto;
     }
     .right-topo{
-        width:300px;
+        width:150px;
       
 
     }
     .out-mobile{
-        width:200px;
+        
         justify-content: space-evenly;
     }
    
