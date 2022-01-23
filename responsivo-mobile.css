@@ -1,0 +1,17 @@
+@media(max-width:614px){/*colocar o tamanho de 635px de volta*/
+
+
+.barra-topo {
+    
+}
+.out-mobile{
+    display:none;
+}
+.mid-topo{
+    display:none;
+
+}
+.line{
+    display:none
+}
+}

@@ -1,0 +1,29 @@
+@media(max-width: 935px){
+    .side-bar{
+        display:none;
+    }
+    .barra-topo{
+       justify-content:space-between;
+    }
+    .storys{
+       width:610px;
+       margin-bottom: 25px;
+    }
+    .conteudo{
+        margin:auto 0;
+    }
+    .todo-conteudo{
+        margin:0 auto;
+    }
+    .right-topo{
+        width:300px;
+      
+
+    }
+    .out-mobile{
+        width:200px;
+        justify-content: space-evenly;
+    }
+   
+    
+   }
