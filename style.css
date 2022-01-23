@@ -61,10 +61,13 @@ display:flex;
 align-items:center;
 justify-content: space-evenly;
 }
+
+
 .setinha-story{
     font-size:30px;
     position:absolute;
     right:9%;
+    color: rgb(49, 49, 49);
 
 }
 .line-story{
@@ -73,6 +76,7 @@ font-weight:400;
 height:19px;
 width:58px;
 overflow: hidden;
+text-overflow: ellipsis;
 }
 .conteudo{
     background-color: red;
@@ -86,9 +90,29 @@ width:610px;
     background-color: black;
     height:400px;
 width:300px;
-position: fixed;
+position: absolute;
 left:760px;
 top:80px;
 
 
+}
+@media(max-width: 1050px){/*não esquecer de mudar pra 935px*/
+ .side-bar{
+     display:none;
+ }
+ .barra-topo{
+    justify-content:space-between;
+ }
+ .storys{
+    width:610px;
+    margin-bottom: 25px;
+ }
+ .conteudo{
+     margin:auto 0;
+ }
+ .todo-conteudo{
+     margin:0 auto;
+ }
+
+ 
 }
