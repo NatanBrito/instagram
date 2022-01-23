@@ -26,15 +26,27 @@
     display:none
 }
 .storys{
-    width:100vw;
-    background-color: #E5E5E5;
-}
-.conteudo{
-    width:100vw;;
+    background-color:#E5E5E5;
+    width:calc(100vw - 16px)
 
 }
-.side-todo-conteudo{
-    position:
+/* se tirar essa parte, volta a esconder metade de cada lado do storys, ou só mudar o justify pra evenly*/
+.storys:nth-child(1){
+    padding-left:px;
+    justify-content: space-between;
+  
+}
+
+.foto-story{
+    overflow:hidden;
+    
+}
+.setinha-story{
+    display:none;
+}
+.conteudo{
+    width:97vw;
+
 }
 
 
