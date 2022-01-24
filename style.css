@@ -76,11 +76,43 @@ justify-content: space-evenly;
 .line-story{
 font-size:12px;
 font-weight:400;
-height:19px;
-width:58px;
 overflow: hidden;
-text-overflow: ellipsis;
+display:flex;
+justify-content: center;
+margin-top: 5px;
 }
+.ft-story1 {/*coloquei o 1 na frente pra trabalar só nela por enquanto*/
+    width:66px;
+    height:86px;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.ft-story1 .imagem-story{
+    width: 64px;
+    height:64px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+background-image: url('./imagens.png/stories_background.jpg');
+background-size: cover;
+
+}
+/*
+}
+.imagem-story img{
+  width: 55px;
+  height:55px;
+  border-radius:50%;
+ */ 
+}
+
+/*.background-story{ 
+    position: absolute;
+    width: 500px; 
+    
+}*/
 .conteudo{
     height:750px;
 width:610px;
